@@ -1,0 +1,98 @@
+
+
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    color:rgb(60,60,60);
+    margin:0px;
+    padding:0px;
+}
+
+header,main,footer{
+    
+    width:800px;
+    margin:auto;
+    background: rgb(240,240,240);
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:20px;
+}
+
+body{
+    background: rgb(200,200,200);
+        font-family: sans-serif;
+}
+
+/*  //////////// Estilos generales /////////////// */
+
+/*  //////////// Estilos Cabecera /////////////// */
+#imagenlogo{
+    float:right;
+    margin-right:40px;
+}
+h1 {
+    font-size: 40px;
+     border-bottom:1px dotted black;
+}
+
+/*  //////////// Estilos Cabecera /////////////// */
+
+/* /////////// Aqui va el menu ///////// */
+
+nav ul li a {
+    text-decoration:underline;
+    color:inherit;
+    font-family:fantasy;
+}
+nav ul{
+    padding:0px;
+    margin:0px;
+}
+nav ul li{
+    padding:5px;
+    margin:1px;
+    list-style-type:none;
+    float:left;
+    background:rgb(60,60,60);
+    color:white;
+    text-transform:none;
+    width: 80px;
+    font-size:15px;
+    text-align:center;
+    transition:all 1s;
+}
+.clearfix{
+    clear:both;
+}
+nav ul li{
+    border-radius:15px 15px 15px 15px;
+}
+nav ul li{
+    border-radius: 15px 15px 15px 15px;
+}
+nav ul li:hover{
+    background:white;
+    color:black;
+}
+/*  //////////// Aqui va el menu /////////////// */
+
+/*  //////////// aqui va el Banner ////////////////// */
+
+
+/*  //////////// aqui va el Banner ////////////////// */
+
+/*  //////////// Blog en la pagina principal ////////////////// */
+
+#blog article{
+    width: 33%;
+    float:left; 
+}
+#blog article img{
+    width:100%;
+}
+#blog article .contienearticulo{
+    padding:10px;
+}
+
+/*  //////////// Blog en la pagina principal ////////////////// */
+
+
